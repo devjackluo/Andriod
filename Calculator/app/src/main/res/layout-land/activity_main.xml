@@ -28,29 +28,132 @@
 
     <Button
         android:id="@+id/btnClear"
-        android:layout_width="224dp"
-        android:layout_height="54dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:onClick="btnClearOnClick"
         android:text="Clear"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resultText" />
+        app:layout_constraintBottom_toBottomOf="@+id/btnBack"
+        app:layout_constraintStart_toEndOf="@+id/btnBack" />
 
     <Button
         android:id="@+id/btn7"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:layout_marginTop="16dp"
         android:onClick="btnNumberOnClick"
         android:text="7"
-        app:layout_constraintStart_toStartOf="@+id/btnClear"
-        app:layout_constraintTop_toBottomOf="@+id/btnClear" />
+        app:layout_constraintStart_toStartOf="@+id/resultText"
+        app:layout_constraintTop_toBottomOf="@+id/resultText" />
+
+    <Button
+        android:id="@+id/btnCos"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:onClick="btnMathOperationOnClick"
+        android:text="cos"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMult"
+        app:layout_constraintStart_toEndOf="@+id/btnDiv" />
+
+    <Button
+        android:id="@+id/btnPi"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="serif"
+        android:onClick="btnMathOperationOnClick"
+        android:text="π"
+        app:layout_constraintBottom_toTopOf="@+id/btnBack"
+        app:layout_constraintStart_toEndOf="@+id/btnTan" />
+
+    <Button
+        android:id="@+id/btnRand"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:onClick="btnMathOperationOnClick"
+        android:text="RAND"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPi"
+        app:layout_constraintStart_toEndOf="@+id/btnPi" />
+
+    <Button
+        android:id="@+id/btnSq"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:onClick="btnMathOperationOnClick"
+        android:text="x²"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSin"
+        app:layout_constraintStart_toEndOf="@+id/btnSin" />
+
+    <Button
+        android:id="@+id/btnPercent"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:onClick="btnMathOperationOnClick"
+        android:text="%"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCos"
+        app:layout_constraintStart_toEndOf="@+id/btnCos" />
+
+    <Button
+        android:id="@+id/btnSin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:onClick="btnMathOperationOnClick"
+        android:text="sin"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnMult"
+        app:layout_constraintStart_toEndOf="@+id/btnMult" />
+
+    <Button
+        android:id="@+id/btnSqR"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:onClick="btnMathOperationOnClick"
+        android:text="√ "
+        app:layout_constraintBottom_toTopOf="@+id/btnSq"
+        app:layout_constraintStart_toEndOf="@+id/btnPercent" />
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:onClick="btnMathOperationOnClick"
+        android:text="±"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSq"
+        app:layout_constraintStart_toEndOf="@+id/btnSq" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:onClick="btnMathOperationOnClick"
+        android:text="⌫"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPlus"
+        app:layout_constraintStart_toEndOf="@+id/btnPlus" />
+
+    <Button
+        android:id="@+id/btnTan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:onClick="btnMathOperationOnClick"
+        android:text="tan"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnMinus"
+        app:layout_constraintStart_toEndOf="@+id/btnMinus" />
 
     <EditText
         android:id="@+id/resultText"
-        android:layout_width="222dp"
+        android:layout_width="399dp"
         android:layout_height="45dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
