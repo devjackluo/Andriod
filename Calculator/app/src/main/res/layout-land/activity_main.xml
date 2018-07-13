@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jack.calculator.MainActivity">
+    tools:context="com.jack.calculator.MainActivity"
+    android:id="@+id/calcView">
 
     <Button
         android:id="@+id/btnEquals"
@@ -75,7 +76,7 @@
         android:layout_marginStart="8dp"
         android:onClick="btnMathOperationOnClick"
         android:text="RAND"
-        android:textSize="10sp"
+        android:textSize="8sp"
         app:layout_constraintBottom_toBottomOf="@+id/btnPi"
         app:layout_constraintStart_toEndOf="@+id/btnPi" />
 
@@ -292,4 +293,18 @@
         android:text="3"
         app:layout_constraintBottom_toBottomOf="@+id/btn2"
         app:layout_constraintStart_toEndOf="@+id/btn2" />
+
+    <TextView
+        android:id="@+id/txtTranslateMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Oh no. You broke me."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn0" />
 </android.support.constraint.ConstraintLayout>

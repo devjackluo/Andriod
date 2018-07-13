@@ -1,3 +1,119 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="orientation">Orientation: </string>
+    <string name="clear">Clear</string>
+    <string name="translateMe">This is a spot to put random text to be translated!</string>
+
+    <string name="about">About</string>
+    <string name="conversion">Conversion</string>
+    <string name="history">History</string>
+
+    <string name="clickedAt">You clicked at:</string>
+
+    <string name="from">From</string>
+    <string name="to">To</string>
+
+    <string name="about1">My name is Billy. I go by the name Jim but you can call my Jack.</string>
+    <string name="about2">Born without a heart, he found himself in wonderland with Alice to get one.</string>
+    <string name="about3">No, none of this is true, unless you believe it is true.</string>
+    <string name="about4">Anyways, the tin-man got a heart and then decided to learn how to program.</string>
+    <string name="about5">He hopes to be able to make a website one day.</string>
+    <string name="about6">But all he can make is "Hello World".</string>
+    <string name="about7">The End.</string>
+
+    <string-array name="items" >
+        <item>Inches to Centimeters</item>
+        <item>Centimeters to Inches</item>
+        <item>Miles to Kilometers</item>
+        <item>Kilometers to Miles</item>
+        <item>Gallons to Cups</item>
+        <item>Cups to Gallons</item>
+        <item>Teaspoons to Cups</item>
+        <item>Teaspoons to Milliliters</item>
+        <item>Teaspoons to Tablespoons</item>
+        <item>Tablespoons to Teaspoons</item>
+        <item>Tablespoons to Milliliter</item>
+        <item>Tablespoons to Cups</item>
+        <item>Cups to Gallons</item>
+        <item>Cups to Milliliters</item>
+        <item>Cups to Liter</item>
+        <item>Cups to Pint</item>
+        <item>Feet to Inches</item>
+        <item>Inches to Feet</item>
+        <item>Centimeters to Feet</item>
+        <item>Centimeters to Meter</item>
+        <item>Centimeters to Yards</item>
+        <item>Yards to Feet</item>
+        <item>Yards to Miles</item>
+        <item>Yards to Centimeters</item>
+        <item>Yards to Kilometers</item>
+        <item>Yards to Meter</item>
+        <item>Meters to Feets</item>
+        <item>Meters to Yards</item>
+        <item>Meters to Centimeter</item>
+        <item>Meters to Miles</item>
+        <item>Meters to Kilometers</item>
+        <item>Meters to Inches</item>
+        <item>Quarts to Pints</item>
+        <item>Pounds to Kilograms</item>
+        <item>Pounds to Grams</item>
+        <item>Pounds to Tons</item>
+        <item>Pounds to Ounces</item>
+        <item>Kilograms to Pounds</item>
+        <item>Kilograms to Tons</item>
+        <item>Kilogram to Ounces</item>
+        <item>Daves to Jacks</item>
+    </string-array>
+
+    <!--<string name="item1">Inches to Centimeters</string>-->
+    <!--<string name="item2">Centimeters to Inches</string>-->
+    <!--<string name="item3">Miles to Kilometers</string>-->
+    <!--<string name="item4">Kilometers to Miles</string>-->
+    <!--<string name="item5">Gallons to Cups</string>-->
+    <!--<string name="item6">Cups to Gallons</string>-->
+    <!--<string name="item7">Teaspoons to Cups</string>-->
+    <!--<string name="item8">Teaspoons to Milliliters</string>-->
+    <!--<string name="item9">Teaspoons to Tablespoons</string>-->
+    <!--<string name="item10">Tablespoons to Teaspoons</string>-->
+
+
+    <!--<string name="item11">Tablespoons to Milliliter</string>-->
+    <!--<string name="item12">Tablespoons to Cups</string>-->
+    <!--<string name="item13">Cups to Gallons</string>-->
+    <!--<string name="item14">Cups to Milliliters</string>-->
+    <!--<string name="item15">Cups to Liter</string>-->
+    <!--<string name="item16">Cups to Pint</string>-->
+    <!--<string name="item17">Feet to Inches</string>-->
+    <!--<string name="item18">Inches to Feet</string>-->
+    <!--<string name="item19">Centimeters to Feet</string>-->
+    <!--<string name="item20">Centimeters to Meter</string>-->
+
+
+    <!--<string name="item21">Centimeters to Yards</string>-->
+    <!--<string name="item22">Yards to Feet</string>-->
+    <!--<string name="item23">Yards to Miles</string>-->
+    <!--<string name="item24">Yards to Centimeters</string>-->
+    <!--<string name="item25">Yards to Kilometers</string>-->
+    <!--<string name="item26">Yards to Meter</string>-->
+    <!--<string name="item27">Meters to Feets</string>-->
+    <!--<string name="item28">Meters to Yards</string>-->
+    <!--<string name="item29">Meters to Centimeter</string>-->
+    <!--<string name="item30">Meters to Miles</string>-->
+
+
+    <!--<string name="item31">Meters to Kilometers</string>-->
+    <!--<string name="item32">Meters to Inches</string>-->
+    <!--<string name="item33">Quarts to Pints</string>-->
+    <!--<string name="item34">Pounds to Kilograms</string>-->
+    <!--<string name="item35">Pounds to Grams</string>-->
+    <!--<string name="item36">Pounds to Tons</string>-->
+    <!--<string name="item37">Pounds to Ounces</string>-->
+    <!--<string name="item38">Kilograms to Pounds</string>-->
+    <!--<string name="item39">Kilograms to Tons</string>-->
+    <!--<string name="item40">Kilogram to Ounces</string>-->
+    <!--<string name="item41">Daves to Jacks</string>-->
+
+
+
+
 </resources>
